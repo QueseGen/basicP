@@ -6,5 +6,12 @@ def calculateint():
   z=x+y
   print(z)
 
+def calculateintmaybe():
+  x=5
+  y=int("4")  #numbers are simple but there are more data types like strings, here we use int() to convert a string to an integer
+  z=x+y   # if y equaled "4" we will not be able to add because "" represents strings or words
+  print(z) #it works because now 5+"4" becomes 5+4
+
 if __name__ == '__main__':
-  calculateint()
+  #calculateint()
+  calculateintmaybe()

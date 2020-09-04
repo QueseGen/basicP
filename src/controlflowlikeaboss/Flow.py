@@ -13,8 +13,10 @@ def ifElse(): #Control through Evaluation
    else:    #If the if| statement is false the only option would be else| so doesn't need statement
      print(y, " is greater than ", x)
 
-#Additionally, we have elif|,else-if that evalute other statements chronologically..if none are true then the else| will execute.
-   x,y,z=2,3,5 #Based on values, guess which statement executes
+#Additionally, we have elif|,else-if that evaluate other statements chronologically...
+#only if none are true the else| will execute.
+#Based on values, guess which statement executes
+   x, y, z = 2, 3, 5
    if x==3:
      print("Should never happen, x equals ", x)
    elif y==2:

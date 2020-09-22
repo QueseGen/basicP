@@ -59,6 +59,15 @@ def calculateFloats(): #Floats/float(): are Numbers with decimals float()|
 
 if __name__ == '__main__':
   calculateIntegers()
+
+  line=6
+  dic=list(range(line+1)[1::])  #Data Structure: Dictonary
+  tup=("This is a Tuple: ", list(range(line + 1)))     #Data Structure: Tuple
+
+  print tup[0]+str(tup[1]) #This is a Tuple: [0, 1, 2, 3, 4, 5, 6]
+
+  print dic,tup     #print values
+  print(dic, tup)   #print a tuple
   #calculatetheRightway()
   #calculateStrings()
   #calculatetheTruth() #Two wrongs dont make a right

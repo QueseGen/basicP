@@ -11,7 +11,7 @@ def keepitSimple(): #Variables and Values: In programming we make our own logic.
   print(one+two)    #Prints 3
 
   one=2             #Values can be changed, per request..
-  print(one+two) #Guess
+  print(one+two)    #Guess
 
 def calculateIntegers(): #Integers/int(): Whole Numbers are called Integers...1,2,3,4,5,etc and their negative counterparts.
   x,y=5,4           #We can also declare and assign two variables at the same time..
